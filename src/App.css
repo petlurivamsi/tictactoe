@@ -1,0 +1,21 @@
+h1 {
+  text-align: center;
+  align-content: center;
+}
+
+.box {
+  border: 1px solid black;
+  width: 80px;
+  height: 80px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.board {
+  display: flex;
+  flex-wrap: wrap;
+  width: 300px;
+  align-items: center;
+  justify-content: center;
+}
