@@ -31,7 +31,7 @@ class App extends Component {
         this.state.board[a] === this.state.board[b] &&
         this.state.board[a] === this.state.board[c]
       ) {
-        alert("You won.!");
+        alert("You have now won.!");
         this.setState({
           winner: this.state.player,
         });
